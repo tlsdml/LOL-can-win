@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- project-specific ---
+# downloaded Riot data (large, and re-creatable by re-running the crawler)
+data/
+
+# trained models and saved training state
+checkpoints/
+*.pt
+*.ckpt
+*.onnx
+
+# data files
+*.parquet
+
+# frontend
+node_modules/
